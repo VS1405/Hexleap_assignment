@@ -13,9 +13,9 @@ const page = () => {
           <Link href="/about" className="text-xl">Sport</Link>
         </li>
       </ul>
-      <div className="border border-transparent">
+      <div className="mt-4">
         <h3 className="font-bold font-sans underline text-large">Sports</h3>
-        <div className="mb-32 grid p-4 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-5 lg:text-left ">
+        <div className="mb-4 grid p-4 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-5 lg:text-left ">
           <div className="group flex flex-col items-center rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
             <Image
               src="/Sports/player8.png"
@@ -180,12 +180,12 @@ const page = () => {
               height={10}
             />
           </div>
-          <div className="mb-16 flex flex-col md:flex-row justify-around text-center p-4 mt-16 lg:max-w-5xl lg:w-full  lg:text-left">
+          <div className="mb-6 flex flex-col md:flex-row justify-around text-center p-4 mt-16 lg:max-w-5xl lg:w-full  lg:text-left">
             <div className="group mb-4 md:mb-0 flex flex-col items-center rounded-lg border border-transparent shadow-lg shadow-gray-500/50  transition-colors bg-white hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
               <Image
                 src="/HighlightSport/Ticket_Mockup1.png"
-                alt="Vercel Logo"
-                className="dark:invert "
+                alt="player photo"
+                className="dark:invert"
                 width={200}
                 height={24}
                 priority
